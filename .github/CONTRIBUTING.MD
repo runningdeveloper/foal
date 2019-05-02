@@ -49,7 +49,7 @@ The FoalTS project consists of several packages. The publication and dependency 
 
 ### `@foal/cli` Package Structure
 
-```sh
+```bash
 generate # Handles the commands `foal createapp` and `foal generate`
   |- generators # Contains the code which renders the templates or updates the files
   |- mocks # Contains some pieces of code used to test the file "updaters"

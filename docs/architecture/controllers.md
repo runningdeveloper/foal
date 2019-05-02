@@ -1,6 +1,6 @@
 # Controllers
 
-```sh
+```bash
 foal generate controller my-controller
 ```
 

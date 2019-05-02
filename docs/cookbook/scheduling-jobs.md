@@ -33,7 +33,7 @@ export async function main(args) {
 ```
 
 Schedule the job(s):
-```sh
+```bash
 npm run build:scripts
 foal run schedule-jobs arg1=value1
 ```
@@ -49,12 +49,12 @@ npm install @foal/cli
 
 Then you can run the scheduler like this:
 
-```sh
+```bash
 pm2 start ./node_modules/.bin/foal --name scheduler -- run schedule-jobs arg1=value1
 ```
 
 If everything works fine, you should see your scheduler running with this command:
-```sh
+```bash
 pm2 ls
 ```
 

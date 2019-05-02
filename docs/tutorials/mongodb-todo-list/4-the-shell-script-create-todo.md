@@ -6,7 +6,7 @@ You could run the command line interface of your database and enter some MongoDB
 
 That's why you are going to create and use a *shell script* instead.
 
-```sh
+```bash
 foal generate script create-todo
 ```
 
@@ -59,13 +59,13 @@ export async function main(args) {
 
 Build the script.
 
-```sh
+```bash
 npm run build:scripts
 ```
 
 Then run the script to create tasks in the database.
 
-```sh
+```bash
 foal run create-todo text="Read the docs"
 foal run create-todo text="Create my first application"
 foal run create-todo text="Write tests"

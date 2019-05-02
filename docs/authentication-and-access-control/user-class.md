@@ -52,7 +52,7 @@ async function main() {
 
 You can use the `create-user` shell script (located in `src/scripts`) to create a new user through the command line.
 
-```sh
+```bash
 npm run build:scripts
 foal run create-user
 ```
@@ -104,7 +104,7 @@ Go to `src/scripts/create-user.ts` and uncomment the lines mentionning the email
 
 You can now create a new user with these commands:
 
-```sh
+```bash
 npm run build:scripts
 foal run create-user email=mary@foalts.org password=mary_password
 ```

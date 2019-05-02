@@ -9,6 +9,6 @@ FoalTS comes up with a pre configuration for the linter [TSLint](https://palanti
 This configuration is stored in the json file `tslint.json`.
 
 You can run the linting with this command:
-```sh
+```bash
 npm run lint
 ```

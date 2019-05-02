@@ -12,19 +12,19 @@ In this tutorial you will learn how to create a basic web application with FoalT
 
 First you need to install globaly the *Command Line Interface (CLI)* of FoalTS. It will help you create a new project and generate files all along your development.
 
-```sh
+```bash
 npm install -g @foal/cli
 ```
 
 Then create a new application. **Don't forget the --mongodb option.**
 
-```sh
+```bash
 foal createapp my-app --mongodb
 ```
 
 This command generates a new directory with the basic structure of the new application. It also installs all the dependencies. Let's look at what `createapp` created:
 
-```shell
+```bash
 my-app/
   config/
   node_modules/

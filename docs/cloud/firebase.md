@@ -4,7 +4,7 @@ This document explains how to create and deploy an application with Firebase. It
 
 ## Set Up the Firebase CLI
 
-```sh
+```bash
 npm install -g firebase-tools
 firebase login
 ```
@@ -15,7 +15,7 @@ First create an empty project on the [Firebase platform](https://console.firebas
 
 Then create your project locally.
 
-```sh
+```bash
 mkdir my-app
 cd my-app
 firebase init
@@ -115,7 +115,7 @@ Update the `firebase.json` file to specify that the server should use the previo
 
 ## Deploy the Application
 
-```sh
+```bash
 npm run build:app
 firebase deploy
 ```

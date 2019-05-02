@@ -2,7 +2,7 @@
 
 ## Create a project
 
-```shell
+```bash
 foal createapp my-app
 ```
 
@@ -14,7 +14,7 @@ If you specify the flag `--yaml`, the new project will use YAML format for its c
 
 ## Create a controller
 
-```shell
+```bash
 foal g controller <name>
 ```
 
@@ -22,13 +22,13 @@ Create a new controller in `./src/app/controllers`, in `./controllers` or in the
 
 If you are in the root directory and you want to automatically register the controller within the app controller you can add the `--register` flag.
 
-```shell
+```bash
 foal g controller <name> --register
 ```
 
 ## Create an entity (simple model)
 
-```shell
+```bash
 foal g entity <name>
 ```
 
@@ -36,7 +36,7 @@ Create a new entity in `./src/app/entities`, in `./entities` or in the current d
 
 ## Create a model (only for Mongoose)
 
-```shell
+```bash
 foal g model <name>
 ```
 
@@ -44,7 +44,7 @@ Create a new model in `./src/app/models`, in `./models` or in the current direct
 
 ## Create REST API
 
-```shell
+```bash
 foal g rest-api <name>
 ```
 
@@ -52,7 +52,7 @@ Create a new controller and a new entity to build a basic REST API. Depending on
 
 If you are in the root directory and you want to automatically register the controller within the app controller you can add the `--register` flag.
 
-```shell
+```bash
 foal g rest-api <name> --register
 ```
 
@@ -60,7 +60,7 @@ See the page [REST Blueprints](../api-section/rest-blueprints.md) for more detai
 
 ## Create a hook
 
-```shell
+```bash
 foal g hook <name>
 ```
 
@@ -68,7 +68,7 @@ Create a new hook in `./src/app/hooks`, in `./hooks` or in the current directory
 
 ## Create a script
 
-```shell
+```bash
 foal g script <name>
 ```
 
@@ -77,7 +77,7 @@ Create a new shell script in `src/scripts` regardless of where you run the comma
 
 ## Create a sub-app
 
-```shell
+```bash
 foal g sub-app <name>
 ```
 
@@ -85,7 +85,7 @@ Create a new sub-app with all its files in `./src/app/sub-apps`, in `./sub-apps`
 
 ## Create a service
 
-```shell
+```bash
 foal g service <name>
 ```
 

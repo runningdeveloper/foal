@@ -1,6 +1,6 @@
 # Create Models and Queries
 
-```shell
+```bash
 foal generate entity my-entity
 ```
 

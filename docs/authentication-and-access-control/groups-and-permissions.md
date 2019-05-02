@@ -47,7 +47,7 @@ async function main() {
 
 ### Creating Permissions with a Shell Script (CLI)
 
-```sh
+```bash
 npm run build:scripts
 foal run create-perm name="Permission to access the secret" codeName="access-secret"
 ```
@@ -102,7 +102,7 @@ async function main() {
 
 ### Creating Groups with a Shell Script (CLI)
 
-```sh
+```bash
 npm run build:scripts
 foal run create-perm name="Permission to delete users" codeName="delete-users"
 foal run create-group name="Administrators" codeName="admin" permissions='[ "delete-users" ]'
@@ -140,7 +140,7 @@ The `hasPerm(permissionCodeName: string)` method of the `UserWithPermissions` cl
 
 ### Creating Users with Groups and Permissions with a Shell Script (CLI)
 
-```sh
+```bash
 npm run build:scripts
 foal run create-user userPermissions='[ "my-first-perm" ]' groups='[ "my-group" ]'
 ```

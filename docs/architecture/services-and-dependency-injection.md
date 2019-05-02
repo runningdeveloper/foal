@@ -1,6 +1,6 @@
 # Services
 
-```sh
+```bash
 foal generate service my-service
 ```
 

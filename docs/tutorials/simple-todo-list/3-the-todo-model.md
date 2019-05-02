@@ -2,7 +2,7 @@
 
 Let's create your first model. The CLI provides a useful command to generate a new file with an empty model.
 
-```sh
+```bash
 foal generate entity todo
 ```
 

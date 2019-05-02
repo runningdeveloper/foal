@@ -10,7 +10,7 @@ Migrations are stored in the `src/migrations` directory.
 
 ## Auto generate migrations from your model changes
 
-```sh
+```bash
 npm run build:app # Build the entities
 npm run migration:generate -- -n my-migration # Generate the migration
 npm run build:migrations # Build the migrations
@@ -19,13 +19,13 @@ npm run migration:run # Run the migrations
 
 ## Run the migrations
 
-```sh
+```bash
 npm run migration:run
 ```
 
 ## Revert the last migration
 
-```sh
+```bash
 npm run migration:revert
 ```
 
